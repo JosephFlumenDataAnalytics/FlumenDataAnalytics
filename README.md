@@ -2,7 +2,7 @@
 
 **Live site: [flumendataanalytics.com](https://flumendataanalytics.com)**
 
-A production-deployed analytics consulting platform that delivers live, embedded Metabase dashboards to business clients. Built and deployed end to end from a minimal Flask scaffold, with no prior web development experience.
+A production-deployed analytics consulting platform that delivers live, embedded Metabase dashboards to business clients. Built and deployed end to end from a minimal Flask scaffold.
 
 ## Stack
 
@@ -18,7 +18,6 @@ A production-deployed analytics consulting platform that delivers live, embedded
 
 - Fully deployed production site served over HTTPS at a custom domain
 - Live interactive Metabase dashboard embedded via signed JWT tokens, including tooltips and filters
-- Automated onboarding pipeline where client contract acceptance triggers server-side database provisioning and dashboard generation
 - Pricing section with four service tiers
 - Data privacy section with Colorado Privacy Act compliance language
 - SEO meta tags, canonical URL configuration, and Google Search Console sitemap integration
