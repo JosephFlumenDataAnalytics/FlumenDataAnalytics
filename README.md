@@ -1,5 +1,16 @@
 # Flumen Data Analytics Platform
 
+## Project Structure
+
+This repo includes selected source files from the live application as a
+reference; the full app (routes, JWT logic, production templates) runs on
+the deployed server and isn't duplicated here for size and security reasons.
+
+run.py                          Flask entry point, app factory
+__init__.py                     App factory, blueprint registration
+base.html                       Master layout, navbar, SEO meta tags
+index.html                      Scaffold homepage template
+
 **Live site: [flumendataanalytics.com](https://flumendataanalytics.com)**
 
 ## Stack
