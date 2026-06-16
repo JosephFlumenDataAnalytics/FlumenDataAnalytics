@@ -1,15 +1,17 @@
 # Flumen Data Analytics Platform
-
 ## Project Structure
 
 This repo includes selected source files from the live application as a
-reference; the full app (routes, JWT logic, production templates) runs on
-the deployed server and isn't duplicated here for size and security reasons.
+reference; the full app runs nested under app/routes/templates on the
+deployed server and isn't duplicated here in that exact layout for size
+reasons.
 
-run.py                          Flask entry point, app factory
-__init__.py                     App factory, blueprint registration
-base.html                       Master layout, navbar, SEO meta tags
-index.html                      Scaffold homepage template
+run.py            Flask entry point, app factory call
+__init__.py       App factory, blueprint registration
+analytics.py      Dashboard token endpoint, JWT signing
+flumen_site.py    Main site routes, including sitemap.xml
+base.html         Master layout, navbar, SEO meta tags
+index.html        Main page: hero, dashboard embed, pricing, privacy
 
 **Live site: [flumendataanalytics.com](https://flumendataanalytics.com)**
 
@@ -52,23 +54,6 @@ Flask app (port 5000, systemd service)
                 v
         dashboard.flumendataanalytics.com
         (self-hosted Metabase, Docker, port 3000)
-```
-
-## Project Structure
-
-```
-run.py                          Flask entry point
-app/
-  __init__.py                   App factory, blueprint registration
-  routes/
-    flumen_site.py              Main site routes including sitemap
-    analytics.py                Dashboard token endpoint, JWT signing
-templates/
-  flumen_site/
-    base.html                   Master layout, navbar, SEO meta tags
-    index.html                  Scaffold homepage
-  analytics/
-    index.html                  Main page: hero, dashboard, pricing, privacy
 ```
 
 ## Metabase Embedding
