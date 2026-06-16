@@ -2,8 +2,6 @@
 
 **Live site: [flumendataanalytics.com](https://flumendataanalytics.com)**
 
-A production-deployed analytics consulting platform that delivers live, embedded Metabase dashboards to business clients. Built and deployed end to end from a minimal Flask scaffold.
-
 ## Stack
 
 - **Backend:** Python, Flask, Jinja2 templating
