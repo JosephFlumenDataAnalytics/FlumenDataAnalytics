@@ -81,7 +81,7 @@ The app runs as a systemd service on a DigitalOcean Ubuntu droplet behind nginx 
 
 ## Summary
 
-Starting from a basic Flask scaffold with two placeholder routes and no front end, and with no prior web development experience, I built and deployed:
+Starting from a basic Flask scaffold with two placeholder routes and no front end, I built and deployed:
 
 - The full front end, including layout, typography, color scheme, animations, and responsive behavior
 - The Metabase JWT embedding system
